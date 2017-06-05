@@ -10,7 +10,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/btcsuite/btcutil/gcs"
+	"github.com/roasbeef/btcutil/gcs"
 )
 
 // BenchmarkGCSFilterBuild benchmarks building a filter.

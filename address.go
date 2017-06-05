@@ -11,11 +11,11 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/btcsuite/btcd/btcec"
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcutil/base58"
-	"github.com/btcsuite/btcutil/bech32"
-	"golang.org/x/crypto/ripemd160"
+	"github.com/btcsuite/golangcrypto/ripemd160"
+	"github.com/roasbeef/btcd/btcec"
+	"github.com/roasbeef/btcd/chaincfg"
+	"github.com/roasbeef/btcutil/base58"
+	"github.com/roasbeef/btcutil/bech32"
 )
 
 // UnsupportedWitnessVerError describes an error where a segwit address being

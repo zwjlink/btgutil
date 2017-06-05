@@ -12,9 +12,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcutil"
-	"golang.org/x/crypto/ripemd160"
+	"github.com/btcsuite/golangcrypto/ripemd160"
+	"github.com/roasbeef/btcd/chaincfg"
+	"github.com/roasbeef/btcutil"
 )
 
 func TestAddresses(t *testing.T) {
