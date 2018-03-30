@@ -2,7 +2,7 @@
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
-package btcutil_test
+package btgutil_test
 
 import (
 	"bytes"
@@ -10,9 +10,9 @@ import (
 	"reflect"
 	"testing"
 
+	"github.com/davecgh/go-spew/spew"
 	"github.com/roasbeef/btcd/chaincfg/chainhash"
 	"github.com/roasbeef/btcutil"
-	"github.com/davecgh/go-spew/spew"
 )
 
 // TestTx tests the API for Tx.

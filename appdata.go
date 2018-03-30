@@ -2,7 +2,7 @@
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
-package btcutil
+package btgutil
 
 import (
 	"os"
@@ -54,12 +54,18 @@ func appDataDir(goos, appName string, roaming bool) string {
 			appData = os.Getenv("APPDATA")
 		}
 
+		if appNameUpper == "Bitcoingold" {
+			appNameUpper = "BitcoinGold"
+		}
 		if appData != "" {
 			return filepath.Join(appData, appNameUpper)
 		}
 
 	case "darwin":
 		if homeDir != "" {
+			if appNameUpper == "Bitcoingold" {
+				appNameUpper = "BitcoinGold"
+			}
 			return filepath.Join(homeDir, "Library",
 				"Application Support", appNameUpper)
 		}
