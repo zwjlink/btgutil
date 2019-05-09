@@ -3,8 +3,8 @@
 // license that can be found in the LICENSE file.
 
 /*
-This test file is part of the btcutil package rather than than the
-btcutil_test package so it can bridge access to the internals to properly test
+This test file is part of the btgutil package rather than than the
+btgutil_test package so it can bridge access to the internals to properly test
 cases which are either not possible or can't reliably be tested via the public
 interface. The functions are only exported while the tests are being run.
 */
@@ -12,9 +12,9 @@ interface. The functions are only exported while the tests are being run.
 package btgutil
 
 import (
-	"github.com/Roasbeef/btcutil/bech32"
-	"github.com/roasbeef/btcd/btcec"
-	"github.com/roasbeef/btcutil/base58"
+	"github.com/zwjlink/btgd/btcec"
+	"github.com/zwjlink/btgutil/base58"
+	"github.com/zwjlink/btgutil/bech32"
 	"golang.org/x/crypto/ripemd160"
 )
 

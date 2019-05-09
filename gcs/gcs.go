@@ -13,7 +13,7 @@ import (
 
 	"github.com/aead/siphash"
 	"github.com/kkdai/bstream"
-	"github.com/roasbeef/btcd/wire"
+	"github.com/zwjlink/btgd/wire"
 )
 
 // Inspired by https://github.com/rasky/gcs

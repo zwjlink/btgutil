@@ -7,11 +7,10 @@ package btgutil
 import (
 	"bytes"
 	"errors"
-
-	"github.com/roasbeef/btcd/btcec"
-	"github.com/roasbeef/btcd/chaincfg"
-	"github.com/roasbeef/btcd/chaincfg/chainhash"
-	"github.com/roasbeef/btcutil/base58"
+	"github.com/zwjlink/btgd/btcec"
+	"github.com/zwjlink/btgd/chaincfg"
+	"github.com/zwjlink/btgd/chaincfg/chainhash"
+	"github.com/zwjlink/btgutil/base58"
 )
 
 // ErrMalformedPrivateKey describes an error where a WIF-encoded private

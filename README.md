@@ -1,13 +1,13 @@
-btcutil
+btgutil
 =======
 
-[![Build Status](http://img.shields.io/travis/roasbeef/btcutil.svg)]
-(https://travis-ci.org/roasbeef/btcutil) [![Coverage Status]
-(http://img.shields.io/coveralls/roasbeef/btcutil.svg)]
-(https://coveralls.io/r/roasbeef/btcutil?branch=master) [![ISC License]
+[![Build Status](http://img.shields.io/travis/roasbeef/btgutil.svg)]
+(https://travis-ci.org/roasbeef/btgutil) [![Coverage Status]
+(http://img.shields.io/coveralls/roasbeef/btgutil.svg)]
+(https://coveralls.io/r/roasbeef/btgutil?branch=master) [![ISC License]
 (http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
 [![GoDoc](http://img.shields.io/badge/godoc-reference-blue.svg)]
-(http://godoc.org/github.com/roasbeef/btcutil)
+(http://godoc.org/github.com/roasbeef/btgutil)
 
 package btgutil provides bitcoin-specific convenience functions and types.
 A comprehensive suite of tests is provided to ensure proper functionality.  See
@@ -24,7 +24,7 @@ provided.
 ## Installation and Updating
 
 ```bash
-$ go get -u github.com/roasbeef/btcutil
+$ go get -u github.com/roasbeef/btgutil
 ```
 
 ## GPG Verification Key

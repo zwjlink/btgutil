@@ -12,7 +12,7 @@ import (
 	"testing"
 	"unicode"
 
-	"github.com/roasbeef/btcutil"
+	"github.com/zwjlink/btgutil"
 )
 
 // TestAppDataDir tests the API for AppDataDir to ensure it gives expected
@@ -122,7 +122,7 @@ func TestAppDataDir(t *testing.T) {
 
 	t.Logf("Running %d tests", len(tests))
 	for i, test := range tests {
-		ret := btcutil.TstAppDataDir(test.goos, test.appName, test.roaming)
+		ret := btgutil.TstAppDataDir(test.goos, test.appName, test.roaming)
 		if ret != test.want {
 			t.Errorf("appDataDir #%d (%s) does not match - "+
 				"expected got %s, want %s", i, test.goos, ret,

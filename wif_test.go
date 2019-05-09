@@ -7,9 +7,9 @@ package btgutil_test
 import (
 	"testing"
 
-	"github.com/roasbeef/btcd/btcec"
-	"github.com/roasbeef/btcd/chaincfg"
-	. "github.com/roasbeef/btcutil"
+	"github.com/zwjlink/btgd/btcec"
+	"github.com/zwjlink/btgd/chaincfg"
+	. "github.com/zwjlink/btgutil"
 )
 
 func TestEncodeDecodeWIF(t *testing.T) {
@@ -29,7 +29,7 @@ func TestEncodeDecodeWIF(t *testing.T) {
 	if err != nil {
 		t.Fatal(err)
 	}
-	wif2, err := NewWIF(priv2, &chaincfg.TestNet3Params, true)
+	wif2, err := NewWIF(priv2, &chaincfg.TestNetParams, true)
 	if err != nil {
 		t.Fatal(err)
 	}
